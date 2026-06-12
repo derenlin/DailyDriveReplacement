@@ -1,0 +1,31 @@
+{
+    "DailyDrive": {
+        "PlaylistId": "YOUR_DAILY_DRIVE_PLAYLIST_ID",
+        "Podcasts": [
+            {
+                "id": "2mTUnDkuKUkhiueKcVWoP0",
+                "position": "first"
+            },
+            {
+                "id": "0KxdEdeY2Wb3zr28dMlQva"
+            },
+            {
+                "id": "6YqWo32NbxiptWx2hU00o5"
+            }
+        ],
+        "Music": {
+            "TotalSongs": 20,
+            "Genres": [
+                "dance",
+                "pop",
+                "rock"
+            ],
+            "Shuffle": true,
+            "TopTracks": {
+                "Enabled": true,
+                "TimeRange": "medium_term",
+                "Count": 30
+            }
+        }
+    }
+}

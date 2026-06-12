@@ -1,0 +1,9 @@
+{
+  "Spotify": {
+    "ClientId": "YOUR_CLIENT_ID",
+    "ClientSecret": "YOUR_CLIENT_SECRET",
+    "RedirectUri": "REDIRECT_URI",
+    "PlaylistName": "Daily Drive",
+    "PlaylistDescription": "Your personalized Daily Drive playlist, generated automatically."
+  }
+}

@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# User-specific secrets — never commit your real credentials
+appsettings.json
+dailydrive-config.json
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# macOS
+.DS_Store
