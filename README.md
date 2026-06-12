@@ -66,4 +66,4 @@ dotnet run
 The app will open your browser for the Spotify login/authorization. After you approve, it will:
 
 1. Find or create a playlist named **Daily Drive** in your account.
-2. Populate it with the tracks defined in `Program.cs`.
+2. Run the app and your Daily Drive will populate based on dailydrive-config.json.
