@@ -120,10 +120,10 @@ public class PlaylistService(SpotifyClient client, SpotifyConfig config, DailyDr
         return episodes;
     }
 
-    public async Task<List<MusicTrack>> fetchTopMusicTracks()
+    public async Task<List<MusicTrack>> FetchTopMusicTracks()
     {
         List<MusicTrack> musicTracks = [];
-        if (_dailyDriveConfig.MusicOptions.TopTracks.Enabled)
+        if (_dailyDriveConfig.Music.TopTracks.Enabled)
         {
             var request = new PersonalizationTopRequest
             {
@@ -259,7 +259,9 @@ public class PlaylistService(SpotifyClient client, SpotifyConfig config, DailyDr
         }
 
         // Step 3: Get music tracks
-        List<MusicTrack> musicTracks = await fetchTopMusicTracks();
+        List<MusicTrack> musicTracks = await FetchTopMusicTracks();
+
+        Console.WriteLine($"Fetched {musicTracks.Count} Tracks");
 
         // Step 4: Layer music in between podcast episodes
         // position "first" episodes are pinned to the top of list
