@@ -27,7 +27,7 @@ public class DailyDriveConfig
 
     public string PlaylistId { get; set; } = string.Empty;
     public List<Podcast> Podcasts { get; set; } = [];
-    public Music MusicOptions { get; set; } = new Music();
+    public Music Music { get; set; } = new Music();
 
 
     public void Validate()
